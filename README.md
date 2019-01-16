@@ -26,7 +26,7 @@ const cost1=[
     [2,4,0]
 ];
  ```
-The optimum route is `0 -> 2 -> 1` and  <img src="https://latex.codecogs.com/gif.latex?\sum cost=6" />
+The optimum route is `0 -> 2 -> 1` and  <img src="https://latex.codecogs.com/gif.latex?\sum" />cost=6
 
 <br>
 
@@ -41,7 +41,7 @@ The optimum route is `0 -> 2 -> 1` and  <img src="https://latex.codecogs.com/gif
     [3,1,4,0]
 ];
  ```
- The optimum route is `1 -> 3 -> 0 -> 2` and <img src="https://latex.codecogs.com/gif.latex?\sum cost=11" />
+ The optimum route is `1 -> 3 -> 0 -> 2` and <img src="https://latex.codecogs.com/gif.latex?\sum" />cost=11
 <br>
 
   ## Solver

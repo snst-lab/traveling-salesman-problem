@@ -16,7 +16,7 @@ traveling-salesman-problem
  Cost definition is given with matrix & diagram.  
  The distance from node i to node j corresponds to the element of array `cost[i][j]`.
 
- ### Case1 : 3nodes
+ >### Case1 : 3nodes
  <img src='assets/img/3nodes.jpg' height='300px'/>
 
   ```js
@@ -28,7 +28,7 @@ const cost1=[
  ```
 <br>
 
- ### Case2 : 4nodes
+ >### Case2 : 4nodes
  <img src='assets/img/4nodes.jpg' height='300px'/>
 
  ```js
@@ -119,11 +119,11 @@ function TSPfromStartNode(cost,startNode){
 ```
 
 <br>
+<br>
 
 ## Reference
 
 >- [Qiita 「ビット演算 (bit 演算) の使い方を総特集！ 〜 マスクビットから bit DP まで 〜」](https://qiita.com/drken/items/7c6ff2aa4d8fce1c9361#%E5%B7%A1%E5%9B%9E%E3%82%BB%E3%83%BC%E3%83%AB%E3%82%B9%E3%83%9E%E3%83%B3%E5%95%8F%E9%A1%8C) 
-<br>
 >- [DPの話](http://d.hatena.ne.jp/Tayama/20111210/1323502092)
 
  

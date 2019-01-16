@@ -1,0 +1,31 @@
+{
+  "name": "traveling-salesman-problem",
+  "version": "1.0.0",
+  "description": "A solution with Javascript to a typical Traveling Salesman Problem using bit operations and Dynamic Programming. ",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "power-assert": "^1.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint src/*.js --fix",
+    "gulp": "node ./node_modules/gulp/bin/gulp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snst-lab/linecorp.cordingtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snst-lab/linecorp.cordingtest/issues"
+  },
+  "homepage": "https://github.com/snst-lab/linecorp.cordingtest#readme"
+}

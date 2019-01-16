@@ -1,0 +1,12 @@
+#Ignore node modules 
+/node_modules/* 
+package-lock.json 
+ 
+#Ignore the archive directory 
+/archive/* 
+ 
+#Ignore shell scripts to deploy repository 
+ 
+init.bat 
+push.bat 
+fix.bat 

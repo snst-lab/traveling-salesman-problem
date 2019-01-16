@@ -2,9 +2,8 @@
 
 traveling-salesman-problem
 ====
->A solution with Javascript to a typical Traveling Salesman Problem using bit operations and Dynamic Programming. I referred to the following site.
+>A solution with Javascript to a typical Traveling Salesman Problem using bit operations and Dynamic Programming. 
 
- [URL (Qiita)](https://qiita.com/drken/items/7c6ff2aa4d8fce1c9361#%E5%B7%A1%E5%9B%9E%E3%82%BB%E3%83%BC%E3%83%AB%E3%82%B9%E3%83%9E%E3%83%B3%E5%95%8F%E9%A1%8C) 
 <br>
 
  ## Description
@@ -14,8 +13,8 @@ traveling-salesman-problem
 <br>
 
  ## Cost definition
- Cost definition is given with matrix & diagram. 　　
- The distance from node i to node j corresponds to the element of array cost[i][j].
+ Cost definition is given with matrix & diagram.  
+ The distance from node i to node j corresponds to the element of array `cost[i][j]`.
 
  ### Case1 : 3nodes
  <img src='assets/img/3nodes.jpg' height='300px'/>
@@ -67,8 +66,8 @@ const cost1=[
 
  ### Main Program
 
-The state visiting the node i is expressed as 1 << i  to make it easier to count the states. 
-For example, the state of visiting nodes 1, 2 and 4 is expressed as '1011'.
+The state visiting the node i is expressed as `1<<i`  to make it easier to count the states. 
+For example, the state of visiting nodes 1, 2 and 4 is expressed as `1011`.
 
 >### When the departure node is not decided
 
@@ -92,6 +91,7 @@ For example, the state of visiting nodes 1, 2 and 4 is expressed as '1011'.
 }
 ```
 
+<br>
 <br>
 
 >### When the departure node is decided
@@ -117,3 +117,13 @@ function TSPfromStartNode(cost,startNode){
 }
 
 ```
+
+<br>
+
+## Reference
+
+>- [Qiita 「ビット演算 (bit 演算) の使い方を総特集！ 〜 マスクビットから bit DP まで 〜」](https://qiita.com/drken/items/7c6ff2aa4d8fce1c9361#%E5%B7%A1%E5%9B%9E%E3%82%BB%E3%83%BC%E3%83%AB%E3%82%B9%E3%83%9E%E3%83%B3%E5%95%8F%E9%A1%8C) 
+<br>
+>- [DPの話](http://d.hatena.ne.jp/Tayama/20111210/1323502092)
+
+ 

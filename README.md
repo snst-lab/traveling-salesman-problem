@@ -26,6 +26,8 @@ const cost1=[
     [2,4,0]
 ];
  ```
+The optimum route is `0 -> 2 -> 1` and $\sum cost=6$
+
 <br>
 
  >### Case2 : 4nodes
@@ -39,6 +41,7 @@ const cost1=[
     [3,1,4,0]
 ];
  ```
+ The optimum route is `1 -> 3 -> 0 -> 2` and $\sum cost=11$
 <br>
 
   ## Solver

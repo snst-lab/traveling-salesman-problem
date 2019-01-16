@@ -36,7 +36,7 @@ function TSP(cost){
 		}
 	}
 	return Math.min(...Array(n).fill().map((e,i)=> d.$((1<<n)-1, i))); 
-	 //Search for the minimum value from the state of visiting all nodes (s = 1111 ...)
+    //Search for the minimum value from the state of visiting all nodes (s = 1111 ...)
 }
 
 
